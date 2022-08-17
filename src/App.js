@@ -8,11 +8,11 @@ function App() {
 
   return (
     <>
-      <input ref={inputRef} value={name} onChange={e => setName(e.target.value)}
-      <div>my name is {name}</div>
-      <div>i rendered {}</div>
+      <input ref={inputRef} value={name} onChange={e => setName(e.target.value)}/>
+      <div>My name is {name}</div>
+      <button>Focus</button>
     </>
-  );
+  )
 }
 
 export default App;
